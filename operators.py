@@ -34,8 +34,4 @@ class mathmetical_operators:
     
     def square_root():
         x = int(input('Add the number: '))
-
-        
-        
-        
         print(sqrt(x))
