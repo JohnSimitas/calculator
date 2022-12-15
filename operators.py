@@ -1,3 +1,5 @@
+from math import sqrt
+
 class mathmetical_operators:
     def addition(x, y):
         print(x + y)
@@ -13,3 +15,6 @@ class mathmetical_operators:
     
     def power(x, expo):
         print(x ** expo)
+
+    def square_root(x):
+        print(sqrt(x))

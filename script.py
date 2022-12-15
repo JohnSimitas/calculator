@@ -3,19 +3,19 @@ from operators import mathmetical_operators
 def calc():
     while True:
         print("""
-            ---------------------
-            |Available Operators|
-            ---------------------
-            |1) Addition +      |
-            ---------------------
-            |2) Subtraction -   |
-            ---------------------
-            |3) Division /      |
-            ---------------------
-            |4) Multiplication *|
-            ---------------------
-            |5) Power **        |
-            ---------------------
+            ------------------------
+            |Available Operators    |
+            |-----------------------|
+            |1) Addition +          |
+            |-----------------------|
+            |2) Subtraction -       |
+            |-----------------------|
+            |3) Division /          |
+            |-----------------------|
+            |4) Multiplication *    |
+            |-----------------------|
+            |5) Power **            |
+            |-----------------------|
         """)
 
         choice = input('Choose one of the available operators: ')
