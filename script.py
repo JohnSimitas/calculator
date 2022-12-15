@@ -29,10 +29,12 @@ def calc():
         if choice == '**':
             num = int(input('Add a number: '))
             expo = int(input('Add the exposure: '))
+            
             mathmetical_operators.power(num, expo)
-            asking = input('Do you want to continue on other calculations? ')
+            
+            another_calc = input('Do you want to continue on other calculations? ')
 
-            if asking == 'no':
+            if another_calc == 'no':
                 break
             else:
                 continue
