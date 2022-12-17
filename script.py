@@ -20,10 +20,10 @@ def calc():
 
         choice = input('Choose one of the available operators: ')
 
-        while choice != '+' and choice != '-' and choice != '*' and choice != '/' and choice != '*' and choice != '**' and choice != 'Sqrt':
+        while choice != '+' and choice != '-' and choice != '*' and choice != '/' and choice != '*' and choice != '**' and choice != 'sqrt':
             add_again = input(f'The operator {choice} is not supported add one of the available operatos: ')
 
-            if add_again == '+' or add_again == '-' or add_again == '*' or add_again == '/' or add_again == '**' or add_again == 'Sqrt':
+            if add_again == '+' or add_again == '-' or add_again == '*' or add_again == '/' or add_again == '**' or add_again == 'sqrt':
                 break
         
         
