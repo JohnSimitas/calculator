@@ -1,2 +1,2 @@
-# Calculator
+# Calculato
 Calculator Project using Python.
