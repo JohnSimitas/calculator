@@ -2,11 +2,10 @@ from math import sqrt
 
 class mathmetical_operators:
     def addition():
-        sum = 0
-        for i in range(2):
-            number = int(input('Add the 1st number: ')) 
-            sum += number
-
+        number
+        number_ = int(input('Add the 1st number: ')) 
+        
+        
         print(sum)
     
     def subtraction():
