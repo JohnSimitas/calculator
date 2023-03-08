@@ -5,6 +5,7 @@ def calc():
         print("""
             |Available Operators    |
             |                       |
+            
             |1) Addition +          |
             |                       |
             |2) Subtraction -       |
@@ -15,15 +16,18 @@ def calc():
             |                       |
             |5) Power **            |
             |                       |
+            
             |6) Sqrt                |
         """)
 
+        
         choice = input('Choose one of the available operators: ')
 
         while choice != '+' and choice != '-' and choice != '*' and choice != '/' and choice != '*' and choice != '**' and choice != 'sqrt':
             add_again = input(f'The operator {choice} is not supported add one of the available operatos: ')
 
             if add_again == '+' or add_again == '-' or add_again == '*' or add_again == '/' or add_again == '**' or add_again == 'sqrt':
+        
                 break
         
         
@@ -32,17 +36,21 @@ def calc():
         elif choice == '-':
             operators.subtraction()
         elif choice == '*':
-            mathmetical_operators.multiplication()
+            operators.multiplication()
         elif choice == '/':
-            mathmetical_operators.division()
+            operators.division()
+        
         elif choice == '**':
-            mathmetical_operators.power()
+            operators.power()
+        elif choice == 'sqrt':
+            operators.square_root()
         else:
-            mathmetical_operators.square_root()
+            operators.bmi()
 
         another_calc = input('Do you want to make another calculation yes / no? ')
 
         if another_calc == 'yes':
+          
             continue
         else:
             break
