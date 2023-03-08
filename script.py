@@ -1,4 +1,4 @@
-from operators import mathmetical_operators
+import operators
 
 def calc():
     while True:
@@ -28,9 +28,9 @@ def calc():
         
         
         if choice == '+':
-            mathmetical_operators.addition()
+            operators.addition()
         elif choice == '-':
-            mathmetical_operators.subtraction()
+            operators.subtraction()
         elif choice == '*':
             mathmetical_operators.multiplication()
         elif choice == '/':
